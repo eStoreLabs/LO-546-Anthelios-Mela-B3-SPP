@@ -30,6 +30,7 @@ const swiper1Selector = swiper1Wrapper + ' .es-swiper1';
 const swiper1 = new Swiper(swiper1Selector, {
   direction: 'horizontal',
   loop: true,
+  autoHeight: true,
 
   pagination: {
     el: '.es-swiper1-pagination',
@@ -47,6 +48,7 @@ const swiper2Selector = swiper2Wrapper + ' .es-swiper2';
 const swiper2 = new Swiper(swiper2Selector, {
   direction: 'horizontal',
   loop: true,
+  autoHeight: true,
 
   pagination: {
     el: '.es-swiper2-pagination',
